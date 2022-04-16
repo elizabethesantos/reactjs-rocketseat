@@ -24,7 +24,7 @@ export function AdminRoom() {
   const params = useParams<RoomParams>()
   const roomId = params.id;
 
-  const { title, questions } = useRoom(roomId)
+  const { title, questions } = useRoom(`roomId`)
 
   async function handleEndRoom(){
     await database.ref(`rooms/${roomId}`).update({
@@ -58,7 +58,7 @@ export function AdminRoom() {
         <div className="content">
           <img src={logoImg} alt="Letmeask" />
           <div>
-            <RoomCode code={roomId} />
+            <RoomCode code={`roomId`} />
             <Button isOutlined onClick={handleEndRoom}>Encerrar sala</Button>
           </div>
         </div>
