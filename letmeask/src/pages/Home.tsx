@@ -22,7 +22,7 @@ export function Home() {
       await signInWithGoogle()
     }
 
-    navigate('/admin/rooms/new');      
+    navigate('/rooms/new');      
   }
 
   async function handleJoinRoom(event: FormEvent){
