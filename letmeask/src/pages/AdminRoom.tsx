@@ -22,7 +22,7 @@ export function AdminRoom() {
  // const { user } = useAuth()
   const navigate = useNavigate();
   const params = useParams<RoomParams>()
-  const roomId = params.id;
+  const roomId = params.id!;
 
   const { title, questions } = useRoom(roomId)
 
