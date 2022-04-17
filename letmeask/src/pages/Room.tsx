@@ -23,7 +23,7 @@ export function Room() {
   const [newQuestion, setNewQuestion] = useState('');
   const roomId = params.id;   
   
-  const { title, questions } = useRoom(`roomId`);
+  const { title, questions } = useRoom(roomId);
 
   async function handleSendQuestion(event: FormEvent) {
     event.preventDefault();
@@ -66,7 +66,7 @@ export function Room() {
     <header>
       <div className="content">
         <img src={logoImg} alt="Letmeask" />
-        <RoomCode code={`roomId`} />
+        <RoomCode code={roomId} />
       </div>
     </header>
 
