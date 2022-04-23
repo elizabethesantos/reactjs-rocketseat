@@ -4,7 +4,7 @@
 
    -curso introdução ao React com Typescript, Saas e integração com RealTime Firebase 
 
-   veja o curso do <a href="https://app.rocketseat.com.br/node/mission-react-js" target="-blank" >NLW06</a>
+   veja o curso do <a href="https://app.rocketseat.com.br/node/mission-react-js" target="-blank" >NLW06- RocketSeat</a>
 
 
 ##
