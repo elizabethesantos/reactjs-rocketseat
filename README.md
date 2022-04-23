@@ -2,7 +2,7 @@
 
  -curso de react no NLW06 oferecido pela Rocketseat
 
-   -curso introdução ao React com Typescript e integração com RealTime Firebase 
+   -curso introdução ao React com Typescript, Saas e integração com RealTime Firebase 
 
 
 ##
